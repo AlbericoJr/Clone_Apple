@@ -2,6 +2,9 @@
   --bg-primary: #000000;
   --text-light: #FFFFFF;
   --text-dark: #1D1D1F;
+  --text-red: #a01a1f;
+  --text-orange: #fd7728;
+
   --title-primary-color: #F5F5F7;
   --subtitle-color: #6E6E73;
   --action-color: #2997FF;
@@ -163,7 +166,7 @@ main .iphone-section .link-wrapper{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 1.5rem;
 }
 
 main .iphone-section .text-wrapper{
@@ -174,4 +177,275 @@ main .iphone-section .text-wrapper{
   flex-direction: column;
   align-items: center;
   margin-top: 51px;
+}
+
+/*products-section*/
+.products-section{
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+}
+
+.products-section div{
+  width: 930px;
+}
+
+.products-section h2{
+  color: var(--title-primary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;  
+}
+
+.products-section P{
+  color: var(--title-primary-color);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+.products-section .text-iphone{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+.products-section .link-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.product{
+  display: flex;
+  gap: 1rem;
+}
+
+
+/*Ipad*/
+.products-section .text-ipad h2{
+  color: var(--text-dark);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;  
+}
+
+.products-section .text-ipad P{
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+.products-section .text-ipad{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+/*AirPods*/
+.products-section .text-airpods img{
+  width: 30px;
+}
+
+.products-section .text-airpods h2{
+  color: var(--text-dark);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;  
+}
+
+.products-section .text-airpods P{
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+.products-section .text-airpods{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+/*watch*/
+.products-section .text-watch img{
+  width: 30px;
+}
+
+.products-section .text-watch h2{
+  color: var(--title-primary-color);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;  
+}
+
+.products-section .text-watch P{
+  color: var(--title-primary-color);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+.products-section .text-watch P span{
+  color: var(--text-red);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+.products-section .text-watch{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+/*ultra*/
+
+.products-section .text-ultra img{
+  width: 30px;
+}
+
+.products-section .text-ultra h2{
+  color: var(--text-dark);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;  
+}
+
+.products-section .text-ultra P{
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+.products-section .text-ultra P span{
+  color: var(--text-orange);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+  margin-bottom: 1rem;
+}
+
+.products-section .text-ultra{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+/*Card*/
+.products-section .text-card img{
+  width: 30px;
+}
+
+.products-section .text-card h2{
+  color: var(--text-dark);
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+  letter-spacing: -0.28px;  
+}
+
+.products-section .text-card P{
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+  letter-spacing: 0.11px;
+}
+
+.products-section .text-card{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 51px;
+}
+
+/*observation*/
+.observation div{
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.observation p{
+color: var(--subtitle-color);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+margin-bottom: 1rem;
+}
+
+.observation strong{
+  color: var(--text-dark);
+}
+
+/*Directory*/
+.apple_directory div{
+  display: flex;
+  width: 1150px;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.apple_directory span{
+  color: var(--text-dark);
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 16px;
+  letter-spacing: -0.12px;
+}
+
+.apple_directory ul li{
+  display: flex;
+  width: 176px;
+  font-size: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  flex-shrink: 0;
+  line-height: 20px;
+}
+
+.test{
+  margin-top: 3rem;
 }
