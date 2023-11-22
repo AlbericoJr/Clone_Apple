@@ -415,13 +415,17 @@ margin-bottom: 1rem;
   color: var(--text-dark);
 }
 
+.boder{
+  border-bottom: var(--subtitle-color) 1px solid;
+}
+
 /*Directory*/
 .apple_directory div{
   display: flex;
-  width: 1150px;
+  width: 1100px;
   padding-top: 20px;
-  justify-content: center;
-  align-items: flex-start;
+  margin: 0 auto;
+  gap: 4rem;
 }
 
 .apple_directory span{
@@ -446,6 +450,44 @@ margin-bottom: 1rem;
   line-height: 20px;
 }
 
-.test{
-  margin-top: 3rem;
+.cards{
+  margin-top: 1rem;
+}
+
+/*FIND-apple*/
+.find-apple{
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.find-apple div p{
+  color: var(--subtitle-color);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+
+.find-apple div p a{
+  color: var(--action-color);
+}
+
+.find-apple .footer-find {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.find-apple .footer-find ul{
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+.find-apple .footer-find ul li{
+  color: var(--subtitle-color);
+  font-size: 15px
 }
